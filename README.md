@@ -1,10 +1,11 @@
 # PHP version switcher for OSX
+##### forked from https://github.com/conradkleinespel/sphp-osx and ported to Nginx
 
 If you're on OSX with PHP installed via Brew, you may be looking for an easy way to switch between PHP versions (5.3, 5.4, 5.5, 5.6, etc). Well, this package is it.
 
 Installation:
 ```
-git clone git@github.com:conradkleinespel/sphp-osx.git
+git clone git@github.com:tomekklas/sphp-osx.git
 ```
 
 Add `/usr/local/bin` to your `$PATH`. If you use the Bash shell, you can do this by running this command:
