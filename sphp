@@ -30,7 +30,6 @@ if [ $? -eq 0 ]; then
 
 		echo "Starting requested PHP$newversion"
 		brew services start php$newversion
-
 	fi
 
 	echo "Done."
