@@ -12,14 +12,17 @@ Add `/usr/local/bin` to your `$PATH`. If you use the Bash shell, you can do this
 ```
 echo 'export PATH="/usr/local/bin:$PATH"' >> $HOME/.bashrc
 ```
-You may need to restart your shell for this to take effect.
+then run
+```
+source .bashrc
+```
 
 Usage:
 ```
-./sphp-osx/sphp 54
-./sphp-osx/sphp 55
-./sphp-osx/sphp 56
-./sphp-osx/sphp 70
+sphp 54
+sphp 55
+sphp 56
+sphp 70
 ```
 
 ## Troubleshooting
