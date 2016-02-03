@@ -30,6 +30,11 @@ if [ $? -eq 0 ]; then
 
 		echo "Starting requested PHP$newversion"
 		brew services start php$newversion
+		
+		echo "Restarting Nginx"
+		sudo nginx -s stop;
+		sudo nginx;
+
 	fi
 
 	echo "Done."
